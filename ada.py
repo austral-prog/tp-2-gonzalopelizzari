@@ -1,10 +1,10 @@
 def ada():
     first_name = "AdA"
     last_name = "LoVeLAce"
-    name="AdA LoVeLAce"
+    name = first_name + last_name
     print(name.lower())
     print(name.title())
     print(name.upper())
-    name_lower="\t\tada lovelace"
-    print(name_lower.rstrip())
+    print(f"\t   {name.lower()}")
 ada()
+
