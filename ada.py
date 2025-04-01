@@ -7,5 +7,3 @@ def ada():
     print(name.upper())
     print(f" \t{name.lower()} ")
 ada()
-
-
