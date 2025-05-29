@@ -1,9 +1,7 @@
 def ada():
-    first_name = "AdA"
-    last_name = "LoVeLAce"
-    name = first_name +" "+ last_name
-    print(name.lower())
-    print(name.title())
-    print(name.upper())
-    print(f" \t{name.lower()}")
-ada()
+    first_name = "ada"
+    last_name= "lovelace"
+    print(first_name + " " + last_name)
+    print(first_name.title() + " " + last_name.title())
+    print(first_name.upper() + " " + last_name.upper()) 
+    print(f"\t{( first_name + " " + last_name).rstrip()}")
